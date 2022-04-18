@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "625d8ca7a985046bc79c402a",
+        "index": 0,
+        "picture": "https://i.ibb.co/fSh19mP/Wall-Mount-Cable-Crossover-Station.png",
+        "description": "A cable crossover machine mainly targets the pectoralis major muscles, which are found in the lower region of your chest, as well as the shoulder and back muscles.  Since your core needs to stay engaged with each rep, it's also a great workout for the abs, but overall, this machine is meant for the upper body muscles.",
+        "tips": "The main thing to remember when using a cable crossover is to keep your spine and back in a neutral position. Also, keep your core engaged and a slight bend in your elbows - never hyper extend!",
+        "name": "Wall-Mount-Cable-Crossover-Station"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402b",
+        "index": 1,
+        "picture": "https://i.ibb.co/GW5N2v0/Roman-Chair-XM-4429.png",
+        "description": "The roman chair is designed specifically to strengthen the lower back and abdominal muscles, but this piece of equipment can also be used to target some lower body muscles as well, like the glutes and hamstrings.",
+        "tips": "This is a versatile piece of equipment that can be used for a lot of different exercises, so the best piece of advice is to take advantage of that. In addition to basic sit-ups and back extensions, use the 'chair' for more unique movements like leg raises, or even hold a weight plate to up the challenge.",
+        "name": "Roman-Chair-XM-4429"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402c",
+        "index": 2,
+        "picture": "https://i.ibb.co/hR9GnKK/Pulldown-Machine.png",
+        "description": "As the name suggests, this machine focuses on the lats, which are the large muscles that stretch across the back. You should also feel some tension in the biceps, but if you feel it in your biceps more than your lats, you're probably using your arms too much (you should primarily be using your back muscles to pull downwards).",
+        "tips": "When using a lat pulldown, one of the most common errors is failing to pull the bar down far enough. Doing this means that you won't get the full effect of the workout, and you'll be doing your upper body muscles an injustice. As you bring the bar down, lower it all the way to your chin before slowly releasing it upwards. Your grip should be just slightly wider than your shoulders, and your elbows should be pointed down towards the floor the entire time. ",
+        "name": "Pulldown-Machine"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402d",
+        "index": 3,
+        "picture": "https://i.ibb.co/gr1w3C0/Preacher-Curl-Weight-Bench.png",
+        "description": "Whether you are standing, sitting, using a barbell or dumbbell set, the main muscle that preacher curls target is the brachialis, which is the lower portion of the bicep. This muscle is needed for proper flexion of the elbow, so it's definitely an important one.",
+        "tips": "Because you'll use your own set of dumbbells or barbell weights with a preacher curl bench, it's important to choose weight according to your current fitness level. It's best to err on the side of 'too easy' in order to avoid a bicep or elbow injury - you can easily move up in weight if you need more of a challenge.",
+        "name": "Preacher-Curl-Weight-Bench"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402e",
+        "index": 4,
+        "picture": "https://i.ibb.co/Rb7SKx6/Leg-curl-machine.png",
+        "description": "This machine is entirely focused on the lower body. The specific areas you can expect to strengthen with a leg press are the quadriceps, hamstrings, and gluteus maximus muscles.",
+        "tips": "The leg press machine is suitable for beginners, but there are still several common mistakes made that can lead to injury. The main things to remember are to keep your feet positioned about hip-width apart, and never lock your knees to the point of hyper extending as you straighten your legs.",
+        "name": "Leg-curl-machine"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402f",
+        "index": 5,
+        "picture": "https://i.ibb.co/f0zhrRX/Adjustable-Weight-Bench.png",
+        "description": "Most people use weight benches for upper body workouts with dumbbells or barbells, but they're also great for working the core and ab muscles. If your weight bench is secure enough, you can even use it as a dip station for strengthening the chest, shoulders, triceps, upper back, and lower back.",
+        "tips": "The best piece of advice for using an adjustable weight bench is to make sure that your bench is secure before you start your workout. After making an adjustment, double check that the knob (or whatever securing mechanism the bench uses) is tight and locked.",
+        "name": "Adjustable-Weight-Bench"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402g",
+        "index": 6,
+        "picture": "https://i.ibb.co/FwpFGTg/Chest-Press-Machine.png",
+        "description": "This exercise targets the pectorals, which are the main muscles of the chest. It also strengthens the biceps and the large muscles in the shoulder and back, so all-in-all, it's a well-rounded workout for the upper body.",
+        "tips": "After adjusting the seat of the machine and setting the weight stack, sit down and set your feet firmly on the floor, about shoulder-width apart. As you grasp the handles, keep your wrists in line with your forearms and extend your arms outwards as you exhale.For the best results with a chest press, pause briefly with your arms fully extended, and then start bending your elbows - slowly! - as you come back to the starting position.",
+        "name": "Chest-Press-Machine"
+    },
+    {
+        "_id": "625d8ca7a985046bc79c402h",
+        "index": 7,
+        "picture": "https://i.ibb.co/9VhS6dq/hammer-strength-machine.png",
+        "description": "This machine mainly focuses on upper body muscles, including the core, triceps, deltoids, deep shoulder stabilizers and pectoralis major.",
+        "tips": "Hammer strength machines are specifically designed to mimic our natural motions, so just focus on moving as you normally would day-to-day. If a movement feels unnatural while lifting with a hammer strength, then chances are, you're doing it wrong.",
+        "name": "Hammer-strength-machine"
+    }
+]
