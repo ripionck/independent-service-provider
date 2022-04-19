@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Setup Body
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site: [Create React App](https://peaceful-neumann-e6f4ac.netlify.app).
 
 # Used Items:
 * React Router
