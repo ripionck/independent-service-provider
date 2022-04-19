@@ -29,10 +29,10 @@ const Header = () => {
                             <Link className="text-decoration-none me-3 text-dark" to="/">Home</Link>
                             <Link className="text-decoration-none me-3 text-dark" to="/services">Service</Link>
                             <Link className="text-decoration-none me-3 text-dark" to="/trainer">Trainer</Link>
-                            <Link className="text-decoration-none me-3 text-dark" to="/about">About</Link>
+                            <Link className="text-decoration-none me-3 text-dark" to="/blogs">Blogs</Link>
                         </Nav>
                         <Form className="d-flex align-items-center">
-                            <Link to="/register" className="text-decoration-none text-primary me-3 border-0">Register</Link>
+                            <Link to="/about" className="text-decoration-none text-dark me-3 border-0">About</Link>
                             {user ? <button className="btn btn-link text-decoration-none" onClick={handleLogOut}>Log Out</button> :
 
                                 <Link to="/login" className="text-decoration-none text-primary  me-5 border-0">Login</Link>}

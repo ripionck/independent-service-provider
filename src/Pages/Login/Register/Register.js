@@ -5,6 +5,7 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import "./Register.css";
 import auth from '../../../firebase.init';
+import { sendEmailVerification } from '@firebase/auth';
 
 
 
@@ -38,7 +39,15 @@ const Register = () => {
         const password = passwordRef.current.value;
         const confirmPassword = confirmPasswordRef.current.value;
 
-        createUserWithEmailAndPassword(firstName, lastName, email, password, confirmPassword)
+        createUserWithEmailAndPassword(firstName, lastName, email, password, confirmPassword);
+
+    }
+
+    const verifyEmail = () => {
+        sendEmailVerification(auth.currentUser)
+            .then(() => {
+                alert('Email verification sent');
+            })
     }
 
     let errorElement;
@@ -51,6 +60,7 @@ const Register = () => {
     }
     if (user) {
         navigate('/')
+        verifyEmail();
     }
     return (
         <div className="form-feature mt-5">

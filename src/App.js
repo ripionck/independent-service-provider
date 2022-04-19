@@ -3,6 +3,7 @@ import { NotFound } from 'http-errors';
 import { Route, Routes } from 'react-router';
 import './App.css';
 import About from './Pages/About/About';
+import Blogs from './Pages/Home/Blogs/Blogs';
 import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Service/Services/Services';
 import Login from './Pages/Login/Login/Login';
@@ -28,6 +29,7 @@ function App() {
           <RequiredAuth>
             <Trainer></Trainer>
           </RequiredAuth>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path="/footer" element={<Footer></Footer>}></Route>

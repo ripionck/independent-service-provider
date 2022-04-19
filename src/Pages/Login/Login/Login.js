@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
+import { sendPasswordResetEmail } from '@firebase/auth';
 
 
 
@@ -36,6 +37,14 @@ const Login = () => {
         navigate('/register')
     }
 
+    const handleForgotPassword = () => {
+        const email = emailRef.current.value;
+        sendPasswordResetEmail(auth, email)
+            .then(() => {
+                console.log('email sent')
+            })
+    }
+
     let errorElement;
     if (error) {
 
@@ -58,7 +67,7 @@ const Login = () => {
                     name="email" id="" placeholder="Email Address" required />
                 <input ref={passwordRef}
                     type="password" name="password" id="" placeholder="Password" required />
-                <Link to="/login" className='text-danger pe-auto text-decoration-none'>Forgot Password?</Link>
+                <Link onClick={handleForgotPassword} to="/login" className='text-danger pe-auto text-decoration-none'>Forgot Password?</Link>
                 <br />
                 <button className="border-0 btn btn-primary w-50 mt-3 px-5 py-2 rounded">Login</button>
             </form>
