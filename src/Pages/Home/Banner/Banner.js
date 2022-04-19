@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="container">
             <Carousel fade>
                 <Carousel.Item>
-                    <img
+                    <img height="550px"
                         className="d-block w-100"
                         src={image1}
                         alt="First slide"
@@ -19,7 +19,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <img height="550px"
                         className="d-block w-100 "
                         src={image2}
                         alt="Second slide"
@@ -31,7 +31,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <img height="550px"
                         className="d-block w-100"
                         src={image3}
                         alt="Third slide"

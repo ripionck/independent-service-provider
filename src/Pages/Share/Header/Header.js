@@ -1,5 +1,5 @@
 
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
 import logo from '../../../gym_logo .png'
 import { Container, Form, Nav, Navbar } from 'react-bootstrap';
@@ -24,8 +24,8 @@ const Header = () => {
                             <Link className="text-decoration-none me-3 text-dark" to="/about">About</Link>
                         </Nav>
                         <Form className="d-flex">
-                            <Button className="me-2 border-0">Sign Up</Button>
-                            <Button className="me-5 border-0">Login</Button>
+                            <Link to="/register" className="text-decoration-none text-dark me-3 border-0">Sign Up</Link>
+                            <Link to="/login" className="text-decoration-none text-dark me-5 border-0">Login</Link>
                         </Form>
                     </Navbar.Collapse>
                 </Container>
